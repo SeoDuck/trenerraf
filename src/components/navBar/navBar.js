@@ -198,7 +198,7 @@ function PrimarySearchAppBar({ classes }) {
                 href="https://blog.trenerrafal.pl/"
                 className={classes.menuATagItemLink}
             >
-                <MenuItem className={classes.menuItemLink}>Blog</MenuItem>
+                <MenuItem className={classes.menuItemLink}>Porady</MenuItem>
             </a>
             <Divider />
             <Link
@@ -282,7 +282,7 @@ function PrimarySearchAppBar({ classes }) {
                                 variant="h5"
                                 className={classes.titleLink}
                             >
-                                Blog
+                                Porady
                             </a>
                             <Link
                                 variant="h5"
