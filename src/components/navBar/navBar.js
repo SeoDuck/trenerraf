@@ -13,6 +13,7 @@ import {
 } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import logo from '../../pages/images/logo.svg';
+import { MicNone } from '@material-ui/icons';
 
 const styles = (theme) => ({
     root: {
@@ -36,6 +37,8 @@ const styles = (theme) => ({
         margin: '0 20px',
         cursor: 'pointer',
         fontWeight: 600,
+        textDecoration: "none",
+        color: theme.palette.common.black,
         [theme.breakpoints.down('sm')]: {
             margin: 0,
             paddingTop: 6,
@@ -77,6 +80,10 @@ const styles = (theme) => ({
     menuItemLink: {
         padding: '20px 30px',
         fontWeight: '600',
+    },
+    menuATagItemLink: {
+        textDecoration: "none",
+        color: theme.palette.common.black,
     },
     mobileMenuWrapper: {
         margin: 0,
@@ -154,7 +161,7 @@ function PrimarySearchAppBar({ classes }) {
                 spy={true}
                 smooth={true}
                 duration={2000}
-                
+
             >
                 <MenuItem className={classes.menuItemLink}>
                     Metamorfozy
@@ -185,7 +192,14 @@ function PrimarySearchAppBar({ classes }) {
             >
                 <MenuItem className={classes.menuItemLink}>Opinie</MenuItem>
             </Link>
-
+            <Divider />
+            <a
+                onClick={handleMobileMenuClose}
+                href="https:/blog.trenerrafal.pl/"
+                className={classes.menuATagItemLink}
+            >
+                <MenuItem className={classes.menuItemLink}>Blog</MenuItem>
+            </a>
             <Divider />
             <Link
                 onClick={handleMobileMenuClose}
@@ -263,7 +277,13 @@ function PrimarySearchAppBar({ classes }) {
                             >
                                 Opinie
                             </Link>
-
+                            <a
+                                href="https:/blog.trenerrafal.pl/"
+                                variant="h5"
+                                className={classes.titleLink}
+                            >
+                                Blog
+                            </a>
                             <Link
                                 variant="h5"
                                 underline="none"
