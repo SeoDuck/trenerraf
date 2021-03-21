@@ -194,7 +194,10 @@ function PrimarySearchAppBar({ classes }) {
             </Link>
             <Divider />
             <a
-                onClick={handleMobileMenuClose}
+                spy={true}
+                smooth={true}
+                duration={2000}
+                activeClass="active"
                 href="https://blog.trenerrafal.pl/"
                 className={classes.menuATagItemLink}
             >
@@ -281,6 +284,12 @@ function PrimarySearchAppBar({ classes }) {
                                 href="https://blog.trenerrafal.pl/"
                                 variant="h5"
                                 className={classes.titleLink}
+                                variant="h5"
+                                underline="none"
+                                color="inherit"
+                                spy={true}
+                                smooth={true}
+                                duration={1900}
                             >
                                 Porady
                             </a>
