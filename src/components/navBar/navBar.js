@@ -195,7 +195,7 @@ function PrimarySearchAppBar({ classes }) {
             <Divider />
             <a
                 onClick={handleMobileMenuClose}
-                href="https:/blog.trenerrafal.pl/"
+                href="https://blog.trenerrafal.pl/"
                 className={classes.menuATagItemLink}
             >
                 <MenuItem className={classes.menuItemLink}>Blog</MenuItem>
@@ -278,7 +278,7 @@ function PrimarySearchAppBar({ classes }) {
                                 Opinie
                             </Link>
                             <a
-                                href="https:/blog.trenerrafal.pl/"
+                                href="https://blog.trenerrafal.pl/"
                                 variant="h5"
                                 className={classes.titleLink}
                             >
