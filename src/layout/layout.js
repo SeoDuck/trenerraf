@@ -12,7 +12,7 @@ const Layout = ({ location, children }) => {
         <React.Fragment>
             {/* <GlobalStyle/> */}
             <Helmet
-                title="Rafał Kiszło - Trener personalny Mokotów | Trening Osobisty"
+                title="Rafał Kiszło - Trener personalny Mokotów"
                 meta={[
                     {
                         name: 'description',
