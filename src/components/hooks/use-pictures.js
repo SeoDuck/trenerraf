@@ -4,7 +4,7 @@ export const data = useStaticQuery(
     graphql`
         query pictureData {
             picHero1: file(
-                relativePath: { eq: "pages/images/trener-rafal-tlo-hero.png" }
+                relativePath: { eq: "pages/images/trener-rafal-tlo-hero.webp" }
             ) {
                 childImageSharp {
                     fluid(maxWidth: 695, maxHeight: 858) {
@@ -12,7 +12,7 @@ export const data = useStaticQuery(
                     }
                 }
             }
-            picHero2: file(relativePath: { eq: "pages/images/bcg1-hero.png" }) {
+            picHero2: file(relativePath: { eq: "pages/images/bcg1-hero.webp" }) {
                 childImageSharp {
                     fluid(maxWidth: 899, maxHeight: 814) {
                         ...GatsbyImageSharpFluid
@@ -21,7 +21,7 @@ export const data = useStaticQuery(
             }
 
             pic3: file(
-                relativePath: { eq: "pages/images/trener-rafal-bcg3.png" }
+                relativePath: { eq: "pages/images/trener-rafal-bcg3.webp" }
             ) {
                 childImageSharp {
                     fluid(maxWidth: 570, maxHeight: 360) {

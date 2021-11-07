@@ -42,7 +42,7 @@ const useStyles = (theme) => ({
 
 const query = graphql`
     query {
-        pic3: file(relativePath: { eq: "pages/images/trener-rafal-bcg3.png" }) {
+        pic3: file(relativePath: { eq: "pages/images/trener-rafal-bcg3.webp" }) {
             childImageSharp {
                 fluid(maxWidth: 570, maxHeight: 360) {
                     ...GatsbyImageSharpFluid

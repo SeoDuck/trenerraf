@@ -104,14 +104,14 @@ const useStyles = (theme) => ({
 
 const query = graphql`
     query {
-        pic1: file(relativePath: { eq: "pages/images/superfm-1.png" }) {
+        pic1: file(relativePath: { eq: "pages/images/superfm-1.webp" }) {
             childImageSharp {
                 fluid(maxWidth: 216, maxHeight: 120) {
                     ...GatsbyImageSharpFluid
                 }
             }
         }
-        pic2: file(relativePath: { eq: "pages/images/trener-rafal-bcg2.png" }) {
+        pic2: file(relativePath: { eq: "pages/images/trener-rafal-bcg2.webp" }) {
             childImageSharp {
                 fluid(maxWidth: 620, maxHeight: 517) {
                     ...GatsbyImageSharpFluid

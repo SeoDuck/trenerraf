@@ -104,7 +104,7 @@ const useStyles = (theme) => ({
                 fontSize: '1rem',
             },
         },
-    
+
     heroPicturesWrapper: {
         padding: 0,
         [theme.breakpoints.down('sm')]: {},
@@ -167,7 +167,7 @@ const useStyles = (theme) => ({
 const query = graphql`
     query {
         picHero1: file(
-            relativePath: { eq: "pages/images/trener-rafal-tlo-hero.png" }
+            relativePath: { eq: "pages/images/trener-rafal-tlo-hero.webp" }
         ) {
             childImageSharp {
                 fluid(maxWidth: 695, maxHeight: 858) {
@@ -175,7 +175,7 @@ const query = graphql`
                 }
             }
         }
-        picHero2: file(relativePath: { eq: "pages/images/bcg1-hero.png" }) {
+        picHero2: file(relativePath: { eq: "pages/images/bcg1-hero.webp" }) {
             childImageSharp {
                 fluid(maxWidth: 899, maxHeight: 814) {
                     ...GatsbyImageSharpFluid
