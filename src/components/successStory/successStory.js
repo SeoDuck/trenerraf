@@ -75,7 +75,7 @@ const useStyles = (theme) => ({
 const query = graphql`
     query {
         pic4: file(
-            relativePath: { eq: "components/successStory/images/1.png" }
+            relativePath: { eq: "components/successStory/images/1.webp" }
         ) {
             childImageSharp {
                 fluid(maxWidth: 743, maxHeight: 533) {
@@ -84,7 +84,7 @@ const query = graphql`
             }
         }
         pic5: file(
-            relativePath: { eq: "components/successStory/images/2.png" }
+            relativePath: { eq: "components/successStory/images/2.webp" }
         ) {
             childImageSharp {
                 fluid(maxWidth: 743, maxHeight: 533) {
@@ -93,7 +93,7 @@ const query = graphql`
             }
         }
         pic6: file(
-            relativePath: { eq: "components/successStory/images/3.png" }
+            relativePath: { eq: "components/successStory/images/3.webp" }
         ) {
             childImageSharp {
                 fluid(maxWidth: 743, maxHeight: 533) {
@@ -102,7 +102,7 @@ const query = graphql`
             }
         }
         pic7: file(
-            relativePath: { eq: "components/successStory/images/4.png" }
+            relativePath: { eq: "components/successStory/images/4.webp" }
         ) {
             childImageSharp {
                 fluid(maxWidth: 743, maxHeight: 533) {
@@ -111,7 +111,7 @@ const query = graphql`
             }
         }
         pic8: file(
-            relativePath: { eq: "components/successStory/images/5.png" }
+            relativePath: { eq: "components/successStory/images/5.webp" }
         ) {
             childImageSharp {
                 fluid(maxWidth: 743, maxHeight: 533) {
@@ -120,7 +120,7 @@ const query = graphql`
             }
         }
         pic9: file(
-            relativePath: { eq: "components/successStory/images/6.png" }
+            relativePath: { eq: "components/successStory/images/6.webp" }
         ) {
             childImageSharp {
                 fluid(maxWidth: 743, maxHeight: 533) {
@@ -129,7 +129,7 @@ const query = graphql`
             }
         }
         pic10: file(
-            relativePath: { eq: "components/successStory/images/7.png" }
+            relativePath: { eq: "components/successStory/images/7.webp" }
         ) {
             childImageSharp {
                 fluid(maxWidth: 743, maxHeight: 533) {
@@ -138,7 +138,7 @@ const query = graphql`
             }
         }
         pic11: file(
-            relativePath: { eq: "components/successStory/images/8.png" }
+            relativePath: { eq: "components/successStory/images/8.webp" }
         ) {
             childImageSharp {
                 fluid(maxWidth: 743, maxHeight: 533) {
@@ -147,7 +147,7 @@ const query = graphql`
             }
         }
         pic12: file(
-            relativePath: { eq: "components/successStory/images/9.png" }
+            relativePath: { eq: "components/successStory/images/9.webp" }
         ) {
             childImageSharp {
                 fluid(maxWidth: 743, maxHeight: 533) {
@@ -156,7 +156,7 @@ const query = graphql`
             }
         }
         pic13: file(
-            relativePath: { eq: "components/successStory/images/10.png" }
+            relativePath: { eq: "components/successStory/images/10.webp" }
         ) {
             childImageSharp {
                 fluid(maxWidth: 743, maxHeight: 533) {
@@ -165,7 +165,7 @@ const query = graphql`
             }
         }
         pic14: file(
-            relativePath: { eq: "components/successStory/images/11.png" }
+            relativePath: { eq: "components/successStory/images/11.webp" }
         ) {
             childImageSharp {
                 fluid(maxWidth: 743, maxHeight: 533) {
@@ -385,7 +385,7 @@ function SuccessStory({ classes, id }) {
 
                 <div className={classes.sliderWrapper}>
                     <Slider {...settings}>
-                        {dataStories.map((story) => 
+                        {dataStories.map((story) =>
                             <Box px={2}>
                                 <Card className={classes.cardWrapper}>
                                     <CardMedia
