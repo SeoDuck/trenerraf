@@ -12,8 +12,7 @@ module.exports = {
         www: false,
         host: 'trenerrafal.pl', // if 'www' is set to 'false', be sure to also remove it here!,
         redirect: [
-          'RewriteRule ^www.trenerrafal.pl /trenerrafal.pl [R=301,L,NE]',
-          
+          'RewriteRule ^(.*)$ http://trenerrafal.pl%{REQUEST_URI} [R=301,L]',
         ],
       },
     },
