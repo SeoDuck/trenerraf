@@ -12,12 +12,12 @@ const Layout = ({ location, children }) => {
         <React.Fragment>
             {/* <GlobalStyle/> */}
             <Helmet
-                title="Rafał Kiszło - Trener personalny Mokotów"
+                title="Rafał Kiszło - Trener personalny Mokotów i Wilanów"
                 meta={[
                     {
                         name: 'description',
                         content:
-                            'Zapraszam na wspólne treningi na Mokotowie - Trener personalny Rafał Kiszło. Trening osobisty w Warszawie dostosowany do Twoich potrzeb. Stań się lepszą wersją siebie!',
+                            'Zapraszam na wspólne treningi na Mokotowie i Wilanowie — Trener personalny Rafał Kiszło. Trening osobisty w Warszawie dostosowany do Twoich potrzeb. Stań się lepszą wersją siebie!',
                     },
                     { name: 'keywords', content: 'Rafał Kiszło, strona www' },
                     {
